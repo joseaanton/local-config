@@ -48,12 +48,16 @@ alias sudo='sudo '
 # Get week number
 alias week='date +%V'
 
-# Trim new lines and copy to clipboard
-alias c="tr -d '\n' | pbcopy"
-
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+#clang, etc.
+alias clr="clang++-6.0 -Wall -Wextra -O2 -std=c++1z"
+alias cld="clang++-6.0 -Wall -Wextra -g -std=c++1z"
+alias clf="clang-format -fallback-style=none -i -style=file"
+
+
 

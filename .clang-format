@@ -1,0 +1,20 @@
+---
+Language: Cpp
+BasedOnStyle: Google
+KeepEmptyLinesAtTheStartOfBlocks: true
+TabWidth: 2
+UseTab: ForIndentation
+AccessModifierOffset: -2
+
+# estan comentadas estas opciones que son además las de Google
+# IndentWidth:     2
+# NamespaceIndentation: None
+# SpaceAfterCStyleCast: false
+# ColumnLimit:     80
+# AccessModifierOffset: -1
+# UseTab: Never
+# TabWidth: 4
+# DerivePointerAlignment: true
+# KeepEmptyLinesAtTheStartOfBlocks: false
+
+
