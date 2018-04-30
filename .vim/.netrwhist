@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/jaan/old/.vim'
-let g:netrw_dirhist_2='/home/jaan/old/.vim/plugin'
-let g:netrw_dirhist_3='/home/jaan/old/.vim'
-let g:netrw_dirhist_4='/home/jaan/old'
-let g:netrw_dirhist_5='/home/jaan'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/mnt'
+let g:netrw_dirhist_2='/'
+let g:netrw_dirhist_3='/usr'
+let g:netrw_dirhist_4='/'
+let g:netrw_dirhist_5='/home'
+let g:netrw_dirhist_6='/home/jaan'
+let g:netrw_dirhist_7='/home/jaan/local-config'
+let g:netrw_dirhist_8='/home/jaan'

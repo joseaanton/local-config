@@ -42,6 +42,11 @@ fi;
 
 LS_COLORS="di=01;37:fi=00:ow=01;90:ex=01;35" export LS_COLORS
 
+# hacer vim editor por defecto
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
+
 #colors ls, etc.
 #if [ -f "$HOME/.mydircolors" ] ; then
 #  export LS_COLORS=`dircolors -b "$HOME/.mydircolors"`

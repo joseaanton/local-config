@@ -45,6 +45,9 @@ alias egrep='egrep --color=auto'
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
+# updetedb sin /mnt/c/
+alias update-db='sudo updatedb -e "/mnt/c"'
+
 # Get week number
 alias week='date +%V'
 
