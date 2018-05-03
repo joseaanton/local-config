@@ -8,3 +8,5 @@ cp -r ../.bashrc .
 cp -r ../.clang-format .
 cp -r ../.vim .
 cp -r ../.vimrc .
+cp -r ../.functions .
+
