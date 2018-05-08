@@ -14,14 +14,11 @@ function cdd {
 }
 
 # Shortcuts
-#alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/downloads"
-#alias dt="cd ~/Desktop"
-#alias p="cd ~/projects"
-#alias g="git"
+alias temp="cd ~/temporal"
+alias desk="cd ~/desktop"
 
 colorflag="--color"
-
 # List all files colorized in long format
 alias ll="ls -lh ${colorflag}"
 
@@ -58,9 +55,11 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 #clang, etc.
-alias clr="clang++-6.0 -Wall -Wextra -O2 -std=c++1z"
-alias cld="clang++-6.0 -Wall -Wextra -g -std=c++1z"
+alias clang-release="clang++-6.0 -Wall -Wextra -O2 -std=c++1z"
+alias clang-debug="clang++-6.0 -Wall -Wextra -g -std=c++1z"
 alias clf="clang-format -fallback-style=none -i -style=file"
 
-
+alias cmake-clang="cmake -DCMAKE_CXX_COMPILER=clang-6.0 -DCMAKE_CXX_COMPILER=clang++-6.0"
+alias cmake-debug="cmake -DCMAKE_BUILD_TYPE=Debug"
+alias cmake-release="cmake -DCMAKE_BUILD_TYPE=Release"
 

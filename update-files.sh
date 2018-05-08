@@ -9,4 +9,4 @@ cp -r ../.clang-format .
 cp -r ../.vim .
 cp -r ../.vimrc .
 cp -r ../.functions .
-
+cp -r ../.inputrc .
